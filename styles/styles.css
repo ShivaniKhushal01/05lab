@@ -130,14 +130,49 @@ label:last-child {
 
 
 /* --------- table styles below here --------- */
-
+table,th,td 
+{
+  border: 3px solid black; 
+}
+table
+{
+	border-collapse:collapse;
+	width: 10%;
+}
+td
+{
+	height:30px;
+}
+tbody  tr:nth-child(even)
+{
+	background-color: blue;
+}
 
 /* --------- unordered list styles below here --------- */
-
+ul { list-style-type:none
+}
+li {
+	border-top:1px dotted blue;
+	border-bottom:1px dotted blue;
+	background-color: purple;
+	width:10%;
+	padding-top:5px;
+    padding-right:5px;
+    padding-bottom:5px;
+    padding-left:5px;
+}
 
 /* --------- definition list styles below here --------- */
 
+dt {
+	color: red;
+	float: left;
+	width: 100%;
+	text-align; right;
+}
 
+dd {
+}
 
 
 /* --------- Basic responsive breakpoint --------- */
